@@ -1,7 +1,9 @@
 package eu.sig.training.ch04;
 
 public class Accounts {
+	
     @SuppressWarnings("unused")
+    
     public static CheckingAccount findAcctByNumber(String number) {
         return new CheckingAccount();
     }
@@ -15,4 +17,5 @@ public class Accounts {
         return sum % 11 == 0;
     }
     // end::isValid[]
+    
 }
