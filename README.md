@@ -41,3 +41,4 @@ There are currently two editions of _Building Maintainable Software_:
 
 Both editions are the same except for the language of the code snippets and a bit of language-specific terminology (e.g., 'Eclipse' in the Java edition is 'Visual Studio' in the C# edition).
 
+Editing the readme to show the pull request flow
