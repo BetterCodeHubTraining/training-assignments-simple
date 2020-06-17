@@ -4,7 +4,15 @@ public class BoardFactory {
     // tag::createBoard[]
     public Board createBoard(Square[][] grid) {
         assert grid != null;
+        return new BoardCreator().create(grid);
+        
+    }
+    // end::createBoard[]
+}
 
+internal class BoardCreator {
+
+    public Board create(Square[][] grid) {
         Board board = new Board(grid);
 
         int width = board.getWidth();
@@ -23,7 +31,6 @@ public class BoardFactory {
 
         return board;
     }
-    // end::createBoard[]
 }
 
 class Board {
